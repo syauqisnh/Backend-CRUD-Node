@@ -1,0 +1,23 @@
+{
+  "name": "crud-nodejs",
+  "version": "1.0.0",
+  "description": "CRUD NODEJS SYAUQI",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Syauqi Nur Hibatullah",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.3",
+    "mysql2": "^3.9.2",
+    "nodemon": "^3.1.0",
+    "sequelize": "^6.37.1"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.6.2"
+  }
+}
